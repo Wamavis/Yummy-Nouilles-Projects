@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 0 9.5rem 0 9.5rem;
+}
+.menu__title {
+  margin: 2.25rem 0 0 0;
+}
+.menu__subTitle {
+  margin: 0 0 2.25rem 0;
+}
+.menu__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--white);
+}
+.menu__card--icon {
+  width: 8.092rem;
+  height: 8.096rem;
+  margin-top: 4.161rem;
+  margin-bottom: 2.951rem;
+}
+.menu__card--part {
+  margin-bottom: 3.914rem;
+}
+.menu__card--partTitle {
+  margin-bottom: 3.719rem;
+}
+.menu__card--partDish {
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+}

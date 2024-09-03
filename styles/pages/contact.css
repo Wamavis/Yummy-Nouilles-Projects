@@ -1,0 +1,21 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__title {
+  margin: 6rem 0 2.5rem 0.75rem;
+}
+.contact__adressContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact__adress {
+  padding: 0 1.75rem;
+  margin-top: 0;
+}
+.contact__adress--link {
+  text-decoration: none;
+  color: var(--black);
+}
