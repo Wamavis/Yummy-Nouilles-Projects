@@ -13,3 +13,9 @@
   color: var(--black);
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .contactInfo {
+    margin: 3rem auto;
+    width: 80%;
+  }
+}

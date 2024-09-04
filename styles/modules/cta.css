@@ -15,3 +15,9 @@
   text-underline-offset: 0.25rem;
   text-decoration-thickness: 0.188rem;
 }
+
+@media (max-width: 768px) {
+  .cta {
+    padding: 1.125rem 4.938rem;
+  }
+}

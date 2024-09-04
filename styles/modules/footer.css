@@ -8,3 +8,13 @@
 .footer__icon {
   margin-left: 3.5rem;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    justify-content: center;
+    padding: 4.75rem 0;
+  }
+  .footer__icon + .footer__icon {
+    margin-left: 3.5rem;
+  }
+}

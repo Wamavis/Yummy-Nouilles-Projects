@@ -32,3 +32,36 @@
   margin-bottom: 2rem;
   line-height: 2.5rem;
 }
+@media (max-width: 768px) {
+  .menu {
+    align-items: center;
+    margin: 0;
+  }
+  .menu__title {
+    margin: 2.25rem 0;
+  }
+  .menu__subTitle {
+    display: none;
+  }
+  .menu__card {
+    width: 80%;
+  }
+  .menu__card--icon {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+  }
+  .menu__card--partDish span {
+    display: none;
+  }
+  .menu__card--part {
+    margin-bottom: 1.5rem;
+  }
+  .menu__card--partTitle {
+    margin-bottom: 1.5rem;
+  }
+  .menu__card--partDish {
+    margin-bottom: 1rem;
+  }
+}
