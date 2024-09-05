@@ -5,7 +5,7 @@
   background-color: var(--black);
   padding: 5.625rem 4.5rem;
 }
-.footer__icon {
+.footer__icon + .footer__icon {
   margin-left: 3.5rem;
 }
 
